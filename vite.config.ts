@@ -11,9 +11,4 @@ export default defineConfig({
   css: {
     transformer: "postcss",
   },
-  vite: {
-    server: {
-      allowedHosts: ["aula-hospedagem.onrender.com"],
-    },
-  },
 });
